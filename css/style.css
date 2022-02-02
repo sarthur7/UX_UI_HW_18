@@ -51,6 +51,95 @@ button {
   cursor: pointer;
 }
 
+.mySkills {
+  text-align: center;
+  background-color: #F5E8E4;
+  padding: 20px;
+  color: #131F32;
+}
+.flexContainer {
+  display: flex;
+  background-color: #F5E8E4;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.UserResearch {
+  background-color: #2D656D;
+  color: white;
+  padding: 20px;
+  margin: 15px;
+  height: 200px; 
+  font-size: 23px; 
+}
+.UserEmpathy {
+  background-color: #2D656D;
+  color: white;
+  padding: 20px;
+  margin: 15px;
+  height: 200px;
+  font-size: 23px;
+}
+.Prototyping {
+  background-color: #2D656D;
+  color: white;
+  padding: 20px;
+  margin: 15px;
+  height: 200px;
+  font-size: 23px;
+}
+.TechSkills {
+  background-color: #2D656D;
+  color: white;
+  padding: 20px;
+  margin: 15px;
+  height: 200px;
+  font-size: 23px;
+}
+
+.workGrid {
+  display: grid;
+  background-color: #F5E8E4;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 
+  "gotrimg gotrproj"
+  "Houndoogleproj Houndoogleimg"
+  "Famgoimg Famgoproj"
+}
+
+.GotrImg {
+  grid-area: 'gotrimg';
+}
+
+.GotrProj {
+  grid-area: 'gotrproj';
+  padding: 50px;
+}
+
+.HoundoogleProj {
+  grid-area: 'Houndoogleproj';
+  padding: 50px;
+}
+
+.HoundoogleImg {
+  grid-area: 'Houndoogleimg';
+}
+
+.FamgoImg {
+  grid-area:'FamgoImg';
+}
+
+.FamgoProj {
+  grid-area: 'Famgoproj';
+  padding: 50px;
+}
+
+h3 {
+    color: #131F32;
+    font-size: 30px;
+}
+
 footer {
   background-color: #F5E8E4;
   padding: 35px;
