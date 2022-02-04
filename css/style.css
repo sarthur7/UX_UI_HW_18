@@ -48,6 +48,7 @@ button {
   padding: 15px 32px;
   text-align: center;
   font-size: 16px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
@@ -71,6 +72,7 @@ button {
   margin: 15px;
   height: 200px; 
   font-size: 23px; 
+  border-radius: 25px;
 }
 .UserEmpathy {
   background-color: #2D656D;
@@ -79,6 +81,7 @@ button {
   margin: 15px;
   height: 200px;
   font-size: 23px;
+  border-radius: 25px;
 }
 .Prototyping {
   background-color: #2D656D;
@@ -87,6 +90,7 @@ button {
   margin: 15px;
   height: 200px;
   font-size: 23px;
+  border-radius: 25px;
 }
 .TechSkills {
   background-color: #2D656D;
@@ -95,12 +99,20 @@ button {
   margin: 15px;
   height: 200px;
   font-size: 23px;
+  border-radius: 25px;
+}
+
+.myWork {
+  text-align: center;
+  background-color: #F5E8E4;
+  padding: 30px;
+  color: #131F32; 
 }
 
 .workGrid {
   display: grid;
   background-color: #F5E8E4;
-  grid-template-rows: 350px 350px 350px;
+  grid-template-rows: 400px 400px 400px;
   grid-template-columns: 50% 50%;
   grid-template-areas: 
   "gotrimg gotrproj"
@@ -110,34 +122,51 @@ button {
 
 .GotrImg {
   grid-area: 'gotrimg';
+  background-image: url("../images/image.png");
+  background-repeat: no-repeat;
+  margin-left: 300px;
+  
 }
 
 .GotrProj {
   grid-area: 'gotrproj';
-  padding: 50px;
+  padding: 60px;
 }
 
 .HoundoogleProj {
   grid-area: 'Houndoogleproj';
-  padding: 50px;
+  padding: 60px;
 }
 
 .HoundoogleImg {
   grid-area: 'Houndoogleimg';
+  background-image: url("../images/image.png");
+  background-repeat: no-repeat;
+  margin-left: 300px;
 }
 
 .FamgoImg {
   grid-area:'FamgoImg';
+  background-image: url("../images/image.png");
+  background-repeat: no-repeat;
+  margin-left: 300px;
+  
 }
 
 .FamgoProj {
   grid-area: 'Famgoproj';
-  padding: 50px;
+  padding: 60px;
 }
 
 h3 {
     color: #131F32;
     font-size: 30px;
+}
+
+h4 {
+  font-size: 23px;
+  color: #131F32;
+  cursor: pointer;
 }
 
 footer {
