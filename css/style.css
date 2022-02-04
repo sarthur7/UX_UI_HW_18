@@ -105,7 +105,7 @@ button {
 .myWork {
   text-align: center;
   background-color: #F5E8E4;
-  padding: 30px;
+  padding: 50px;
   color: #131F32; 
 }
 
@@ -122,40 +122,49 @@ button {
 
 .GotrImg {
   grid-area: 'gotrimg';
-  background-image: url("../images/image.png");
+  background-image: url("../images/Frame 5.png");
   background-repeat: no-repeat;
-  margin-left: 300px;
-  
+  margin-left: 600px;
+  padding: 200px;  
 }
 
 .GotrProj {
   grid-area: 'gotrproj';
-  padding: 60px;
+  margin-right: 100px;
+  padding: 100px;
 }
 
 .HoundoogleProj {
   grid-area: 'Houndoogleproj';
-  padding: 60px;
+  padding: 100px;
+  margin-left: 100px;
+  margin-top: 40px;
 }
 
 .HoundoogleImg {
   grid-area: 'Houndoogleimg';
-  background-image: url("../images/image.png");
+  background-image: url("../images/Frame\ 10.png");
   background-repeat: no-repeat;
-  margin-left: 300px;
+  margin-right: 600px;
+  margin-top: 60px;
+  padding: 200px;
 }
 
 .FamgoImg {
   grid-area:'FamgoImg';
-  background-image: url("../images/image.png");
+  background-image: url("../images/Frame\ 11.png");
   background-repeat: no-repeat;
-  margin-left: 300px;
+  margin-left: 550px;
+  margin-top: 100px;
+  padding: 250px;
   
 }
 
 .FamgoProj {
   grid-area: 'Famgoproj';
-  padding: 60px;
+  padding: 100px;
+  margin-top: 110px;
+  margin-right: 100px;
 }
 
 h3 {
@@ -166,6 +175,8 @@ h3 {
 h4 {
   font-size: 23px;
   color: #131F32;
+  padding: 60px;
+  margin-top: 150px;
   cursor: pointer;
 }
 
