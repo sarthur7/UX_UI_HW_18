@@ -193,13 +193,14 @@ h4 {
 }
 
 
-@media only screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .flexContainer {
-    margin: 0px 5%;
+    width:100%;
+    margin: 0px;
   }
   .workGrid {
     grid-template-rows: 400px 400px 400px 400px 400px 400px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     grid-template-areas: 
       "gotrproj"
       "gotrimg"
