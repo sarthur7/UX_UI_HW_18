@@ -199,7 +199,7 @@ h4 {
     margin: 0px;
   }
   .workGrid {
-    grid-template-rows: 400px 400px 400px 400px 400px 400px;
+    grid-template-rows: 600px 600px 600px 600px 600px 600px;
     grid-template-columns: 100%;
     grid-template-areas: 
       "gotrproj"
